@@ -21,18 +21,6 @@ body {
   color: cadetblue;
 }
 
-/* #startStop {
-  position: absolute;
-  top: 25rem;
-  left: 35rem;
-}
-
-#reset {
-  position: absolute;
-  top: 25rem;
-  left: 46rem;
-} */
-
 .name {
   position: absolute;
   top: 8rem;
@@ -76,4 +64,13 @@ button:hover::before {
   top: 24rem;
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .btn {
+    top: 30rem;
+  }
+
+  .name {
+    top: 16rem;
+  }
 }
